@@ -1,0 +1,75 @@
+
+
+- State of The ART
+
+----------------
+google:
+- gmail
+- calendar
+- [sheets]
+- [docs]
+
+----------------
+git: (version control system)
+- header  >>> git  version1
+- footer  >>> git  version2
+...
+- header asdasdasd
+- header  >>> git  version10
+
+1- link: https://git-scm.com/  (installation needed)
+- command line
+- 
+
+2- github.com   <<< create user
+
+# create a repository (repo)
+https://github.com/madoodia/milad_tb
+
+# add ssh key for github
+# in CMD (not git bash)
+$ ssh-keygen -t rsa
+# open id_rsa.pub in /user/.ssh
+# copy contents
+# go to github.com/USER > settings > SSH keys > new SSH key
+# title and key >>> ok
+
+# clone the repository (with ssh)
+$ git clone git@github.com:madoodia/milad_tb.git
+
+# pushing changes (upfate net from local)
+$ git status
+$ git add .
+$ git commit -m "initial commit"
+$ git push
+or
+$ git push origin/master
+# master <<< branch
+
+# pulling changes (Update from net)
+$ git fetch
+$ git pull
+
+# set username in config
+$ git config --global user.name "Mona Lisa"
+$ git config --global user.email "mona_lisa@gmail.com"
+
+# create branches
+$ git checkout -b madoodia_dev
+----------------
+
+----------------
+CMD:
+# list directories
+$ ls
+# change directory
+$ cd
+# getting help or documentation of the command
+$ COMMAND -h (--help)
+
+
+
+
+
+
+

@@ -54,8 +54,12 @@ $ git pull
 $ git config --global user.name "Mona Lisa"
 $ git config --global user.email "mona_lisa@gmail.com"
 
-# create branches
+# create branches (for working on a same project simultaniously)
 $ git checkout -b madoodia_dev
+
+# create pull request for merging changes from one branch to another
+in github website
+pull requests > create pull request > confirm and merge
 ----------------
 
 ----------------

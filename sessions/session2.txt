@@ -1,0 +1,58 @@
+1. Projects: (project management)
+Agile << SDLC <<< Software Development Life Cycle
+
+design, coding, test
+design, coding, test
+design, coding, test
+design, coding, test
+
+create issues:
+Assignee (madoodia)
+Label (bug, doc,...)
+Projects (Prj1)
+Milestone (Sprint) (two weeks)
+
+
+
+----
+Waterfall (OLD)
+    requirement
+    design
+    code
+    test
+    maintain
+----
+Mastering Markdown
+https://guides.github.com/features/mastering-markdown/
+
+example:
+you can write these in Pull Request's comments
+issue's description
+
+[Line 5 in index](https://github.com/madoodia/milad_tb/blob/master/test/index.html#L5)
+
+@miladaar  this PR is **done**
+`var aaa = 100;`
+
+```python
+class Test(object):
+    pass
+```
+```html
+<body>
+    <h1>Tnis is a fucking test!</h1>
+    <h1>Tnis is a fucking test2!</h1>
+</body>
+```
+
+or
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+======================================
+2. github.io
+madoodia.github.io
+miladaar.github.io
